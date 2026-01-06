@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(flutter analyze:*)",
+      "Bash(flutter run:*)",
+      "Bash(dart run:*)",
+      "Bash(flutter pub add:*)",
+      "Bash(dart test_gemini_simple.dart:*)",
+      "Bash(flutter devices:*)",
+      "Bash(flutter attach:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
