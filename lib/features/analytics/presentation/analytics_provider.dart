@@ -1,7 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:vehicle_tracker/features/analytics/data/expense_analytics_repository.dart';
-import 'package:vehicle_tracker/features/analytics/domain/expense_analytics.dart';
-import 'package:vehicle_tracker/features/expenses/presentation/expenses_provider.dart';
+import 'package:c_vencio/features/analytics/data/expense_analytics_repository.dart';
+import 'package:c_vencio/features/analytics/domain/expense_analytics.dart';
+import 'package:c_vencio/features/expenses/presentation/expenses_provider.dart';
 
 /// Provider para el repositorio de analytics
 final analyticsRepositoryProvider = Provider<ExpenseAnalyticsRepository>((ref) {

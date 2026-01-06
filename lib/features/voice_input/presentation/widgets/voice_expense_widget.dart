@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:vehicle_tracker/core/theme/app_theme.dart';
-import 'package:vehicle_tracker/core/theme/design_tokens.dart';
-import 'package:vehicle_tracker/features/shared/widgets/glass_card.dart';
-import 'package:vehicle_tracker/features/voice_input/data/speech_service.dart';
-import 'package:vehicle_tracker/features/voice_input/presentation/speech_provider.dart';
-import 'package:vehicle_tracker/features/voice_input/presentation/widgets/voice_button.dart';
+import 'package:c_vencio/core/theme/app_theme.dart';
+import 'package:c_vencio/core/theme/design_tokens.dart';
+import 'package:c_vencio/features/shared/widgets/glass_card.dart';
+import 'package:c_vencio/features/voice_input/data/speech_service.dart';
+import 'package:c_vencio/features/voice_input/presentation/speech_provider.dart';
+import 'package:c_vencio/features/voice_input/presentation/widgets/voice_button.dart';
 import 'package:shimmer/shimmer.dart';
 
 /// Widget completo para captura de gastos por voz

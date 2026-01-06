@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:vehicle_tracker/features/voice_input/data/speech_service.dart';
+import 'package:c_vencio/features/voice_input/data/speech_service.dart';
 
 /// Provider del servicio de speech-to-text
 /// Singleton para reutilizar la misma instancia

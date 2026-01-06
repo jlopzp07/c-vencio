@@ -1,8 +1,8 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:vehicle_tracker/features/vehicles/data/runt_cache_repository.dart';
-import 'package:vehicle_tracker/features/vehicles/data/vehicle_data_service.dart';
-import 'package:vehicle_tracker/features/vehicles/domain/vehicle.dart';
-import 'package:vehicle_tracker/features/vehicles/domain/vehicle_runt_cache.dart';
+import 'package:c_vencio/features/vehicles/data/runt_cache_repository.dart';
+import 'package:c_vencio/features/vehicles/data/vehicle_data_service.dart';
+import 'package:c_vencio/features/vehicles/domain/vehicle.dart';
+import 'package:c_vencio/features/vehicles/domain/vehicle_runt_cache.dart';
 import 'dart:developer' as developer;
 
 /// Estado del RUNT que incluye los datos y el caché

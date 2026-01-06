@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:vehicle_tracker/core/theme/app_theme.dart';
-import 'package:vehicle_tracker/core/theme/design_tokens.dart';
-import 'package:vehicle_tracker/features/shared/widgets/glass_card.dart';
-import 'package:vehicle_tracker/features/ai_assistant/domain/ai_parsed_expense.dart';
+import 'package:c_vencio/core/theme/app_theme.dart';
+import 'package:c_vencio/core/theme/design_tokens.dart';
+import 'package:c_vencio/features/shared/widgets/glass_card.dart';
+import 'package:c_vencio/features/ai_assistant/domain/ai_parsed_expense.dart';
 import 'package:intl/intl.dart';
 
 /// Card de confirmación para gastos parseados por AI

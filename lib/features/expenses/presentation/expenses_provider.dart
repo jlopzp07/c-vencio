@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:vehicle_tracker/features/expenses/data/expense_repository.dart';
-import 'package:vehicle_tracker/features/expenses/domain/expense.dart';
+import 'package:c_vencio/features/expenses/data/expense_repository.dart';
+import 'package:c_vencio/features/expenses/domain/expense.dart';
 
 // Simple FutureProvider for fetching expenses
 final expensesProvider = FutureProvider.autoDispose

@@ -1,16 +1,16 @@
 import 'package:go_router/go_router.dart';
-import 'package:vehicle_tracker/core/constants/app_constants.dart';
-import 'package:vehicle_tracker/features/vehicles/domain/vehicle.dart';
-import 'package:vehicle_tracker/features/vehicles/presentation/add_vehicle_screen.dart';
-import 'package:vehicle_tracker/features/vehicles/presentation/edit_vehicle_screen.dart';
-import 'package:vehicle_tracker/features/vehicles/presentation/vehicle_details_screen.dart';
-import 'package:vehicle_tracker/features/home/presentation/home_screen.dart';
-import 'package:vehicle_tracker/features/expenses/presentation/expenses_screen.dart';
-import 'package:vehicle_tracker/features/expenses/presentation/expenses_screen_v2.dart';
-import 'package:vehicle_tracker/features/expenses/presentation/add_expense_screen.dart';
-import 'package:vehicle_tracker/features/expenses/presentation/add_expense_screen_v2.dart';
-import 'package:vehicle_tracker/features/expenses/presentation/quick_voice_expense_screen.dart';
-import 'package:vehicle_tracker/features/expenses/presentation/quick_manual_expense_screen.dart';
+import 'package:c_vencio/core/constants/app_constants.dart';
+import 'package:c_vencio/features/vehicles/domain/vehicle.dart';
+import 'package:c_vencio/features/vehicles/presentation/add_vehicle_screen.dart';
+import 'package:c_vencio/features/vehicles/presentation/edit_vehicle_screen.dart';
+import 'package:c_vencio/features/vehicles/presentation/vehicle_details_screen.dart';
+import 'package:c_vencio/features/home/presentation/home_screen.dart';
+import 'package:c_vencio/features/expenses/presentation/expenses_screen.dart';
+import 'package:c_vencio/features/expenses/presentation/expenses_screen_v2.dart';
+import 'package:c_vencio/features/expenses/presentation/add_expense_screen.dart';
+import 'package:c_vencio/features/expenses/presentation/add_expense_screen_v2.dart';
+import 'package:c_vencio/features/expenses/presentation/quick_voice_expense_screen.dart';
+import 'package:c_vencio/features/expenses/presentation/quick_manual_expense_screen.dart';
 
 final appRouter = GoRouter(
   initialLocation: '/',

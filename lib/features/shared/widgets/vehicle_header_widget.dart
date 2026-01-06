@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:vehicle_tracker/core/theme/app_theme.dart';
-import 'package:vehicle_tracker/features/vehicles/domain/vehicle.dart';
-import 'package:vehicle_tracker/features/shared/widgets/info_chip_widget.dart';
+import 'package:c_vencio/core/theme/app_theme.dart';
+import 'package:c_vencio/features/vehicles/domain/vehicle.dart';
+import 'package:c_vencio/features/shared/widgets/info_chip_widget.dart';
 
 /// Widget reutilizable para mostrar el encabezado de un vehículo
 /// con su imagen, marca, modelo, placa y chips de información.

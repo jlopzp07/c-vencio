@@ -1,9 +1,9 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:vehicle_tracker/core/theme/app_theme.dart';
-import 'package:vehicle_tracker/core/theme/design_tokens.dart';
-import 'package:vehicle_tracker/features/expenses/domain/expense.dart';
+import 'package:c_vencio/core/theme/app_theme.dart';
+import 'package:c_vencio/core/theme/design_tokens.dart';
+import 'package:c_vencio/features/expenses/domain/expense.dart';
 
 /// Formulario manual para agregar gastos con glassmorphism
 class ManualExpenseForm extends StatefulWidget {

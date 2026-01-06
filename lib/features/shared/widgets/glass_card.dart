@@ -1,6 +1,6 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:vehicle_tracker/core/theme/design_tokens.dart';
+import 'package:c_vencio/core/theme/design_tokens.dart';
 
 /// Widget reutilizable con efecto glassmorphism
 /// Implementa el diseño Liquid Glass característico de MonAI

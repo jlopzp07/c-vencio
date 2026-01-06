@@ -1,7 +1,7 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:vehicle_tracker/core/theme/app_theme.dart';
-import 'package:vehicle_tracker/core/theme/design_tokens.dart';
+import 'package:c_vencio/core/theme/app_theme.dart';
+import 'package:c_vencio/core/theme/design_tokens.dart';
 
 /// Botón con efecto glassmorphism
 /// Sigue el diseño MonAI con animaciones suaves

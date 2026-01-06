@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-import 'package:vehicle_tracker/core/constants/app_constants.dart';
-import 'package:vehicle_tracker/core/router/app_router.dart';
-import 'package:vehicle_tracker/core/theme/app_theme.dart';
+import 'package:c_vencio/core/constants/app_constants.dart';
+import 'package:c_vencio/core/router/app_router.dart';
+import 'package:c_vencio/core/theme/app_theme.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

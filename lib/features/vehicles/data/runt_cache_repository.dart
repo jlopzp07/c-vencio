@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-import 'package:vehicle_tracker/features/vehicles/domain/vehicle_runt_cache.dart';
+import 'package:c_vencio/features/vehicles/domain/vehicle_runt_cache.dart';
 import 'dart:developer' as developer;
 
 final runtCacheRepositoryProvider = Provider((ref) => RuntCacheRepository());

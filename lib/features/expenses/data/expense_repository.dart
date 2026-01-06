@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-import 'package:vehicle_tracker/features/expenses/domain/expense.dart';
+import 'package:c_vencio/features/expenses/domain/expense.dart';
 
 final expenseRepositoryProvider = Provider((ref) => ExpenseRepository());
 

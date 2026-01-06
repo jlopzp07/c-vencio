@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:vehicle_tracker/features/vehicles/data/vehicle_data_service.dart';
-import 'package:vehicle_tracker/features/vehicles/domain/vehicle.dart';
-import 'package:vehicle_tracker/core/theme/app_theme.dart';
-import 'package:vehicle_tracker/features/shared/widgets/vehicle_header_widget.dart';
-import 'package:vehicle_tracker/features/shared/widgets/alert_card_widget.dart';
+import 'package:c_vencio/features/vehicles/data/vehicle_data_service.dart';
+import 'package:c_vencio/features/vehicles/domain/vehicle.dart';
+import 'package:c_vencio/core/theme/app_theme.dart';
+import 'package:c_vencio/features/shared/widgets/vehicle_header_widget.dart';
+import 'package:c_vencio/features/shared/widgets/alert_card_widget.dart';
 import 'package:go_router/go_router.dart';
 
 final vehicleStatusProvider =

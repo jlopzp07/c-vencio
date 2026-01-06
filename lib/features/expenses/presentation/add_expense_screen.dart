@@ -3,8 +3,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:intl/intl.dart';
 import 'package:uuid/uuid.dart';
-import 'package:vehicle_tracker/features/expenses/domain/expense.dart';
-import 'package:vehicle_tracker/features/expenses/presentation/expenses_provider.dart';
+import 'package:c_vencio/features/expenses/domain/expense.dart';
+import 'package:c_vencio/features/expenses/presentation/expenses_provider.dart';
 
 class AddExpenseScreen extends ConsumerStatefulWidget {
   final String vehicleId;

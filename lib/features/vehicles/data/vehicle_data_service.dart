@@ -1,7 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'package:vehicle_tracker/core/constants/app_constants.dart';
+import 'package:c_vencio/core/constants/app_constants.dart';
 import 'dart:developer' as developer;
 
 final vehicleDataServiceProvider = Provider((ref) => VehicleDataService());

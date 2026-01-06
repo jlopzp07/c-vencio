@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:intl/intl.dart';
-import 'package:vehicle_tracker/features/expenses/presentation/expenses_provider.dart';
+import 'package:c_vencio/features/expenses/presentation/expenses_provider.dart';
 
 class ExpensesScreen extends ConsumerWidget {
   final String vehicleId;

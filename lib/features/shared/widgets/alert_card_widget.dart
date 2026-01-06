@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:vehicle_tracker/core/theme/app_theme.dart';
+import 'package:c_vencio/core/theme/app_theme.dart';
 
 /// Widget reutilizable para mostrar tarjetas de alertas
 /// (SOAT, Tecnicomecánica, etc.) con estado vigente/vencido.

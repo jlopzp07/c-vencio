@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-import 'package:vehicle_tracker/features/vehicles/domain/vehicle.dart';
+import 'package:c_vencio/features/vehicles/domain/vehicle.dart';
 
 final vehicleRepositoryProvider = Provider((ref) => VehicleRepository());
 

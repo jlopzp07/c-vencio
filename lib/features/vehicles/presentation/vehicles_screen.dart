@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:vehicle_tracker/features/vehicles/presentation/vehicles_provider.dart';
+import 'package:c_vencio/features/vehicles/presentation/vehicles_provider.dart';
 
 class VehiclesScreen extends ConsumerWidget {
   const VehiclesScreen({super.key});

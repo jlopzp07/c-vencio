@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'package:google_generative_ai/google_generative_ai.dart';
-import 'package:vehicle_tracker/core/constants/app_constants.dart';
-import 'package:vehicle_tracker/features/ai_assistant/domain/ai_parsed_expense.dart';
-import 'package:vehicle_tracker/features/vehicles/domain/vehicle.dart';
+import 'package:c_vencio/core/constants/app_constants.dart';
+import 'package:c_vencio/features/ai_assistant/domain/ai_parsed_expense.dart';
+import 'package:c_vencio/features/vehicles/domain/vehicle.dart';
 
 /// Servicio para integración con Google Gemini AI
 /// Maneja parsing de gastos desde voz y generación de sugerencias

@@ -1,11 +1,11 @@
 {
-    "name": "vehicle_tracker",
-    "short_name": "vehicle_tracker",
+    "name": "C-Vencio",
+    "short_name": "C-Vencio",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Control de vencimientos vehiculares",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

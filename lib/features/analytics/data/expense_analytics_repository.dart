@@ -1,5 +1,5 @@
-import 'package:vehicle_tracker/features/analytics/domain/expense_analytics.dart';
-import 'package:vehicle_tracker/features/expenses/domain/expense.dart';
+import 'package:c_vencio/features/analytics/domain/expense_analytics.dart';
+import 'package:c_vencio/features/expenses/domain/expense.dart';
 
 /// Repositorio para calcular analíticas de gastos
 class ExpenseAnalyticsRepository {

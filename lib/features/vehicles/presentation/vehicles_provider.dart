@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:vehicle_tracker/features/vehicles/data/vehicle_repository.dart';
-import 'package:vehicle_tracker/features/vehicles/domain/vehicle.dart';
+import 'package:c_vencio/features/vehicles/data/vehicle_repository.dart';
+import 'package:c_vencio/features/vehicles/domain/vehicle.dart';
 
 final vehiclesProvider = AsyncNotifierProvider<VehiclesNotifier, List<Vehicle>>(
   VehiclesNotifier.new,

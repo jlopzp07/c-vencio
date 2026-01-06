@@ -3,17 +3,17 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:intl/intl.dart';
 import 'package:uuid/uuid.dart';
-import 'package:vehicle_tracker/core/constants/app_constants.dart';
-import 'package:vehicle_tracker/core/theme/app_theme.dart';
-import 'package:vehicle_tracker/core/theme/design_tokens.dart';
-import 'package:vehicle_tracker/features/expenses/domain/expense.dart';
-import 'package:vehicle_tracker/features/expenses/presentation/expenses_provider.dart';
-import 'package:vehicle_tracker/features/expenses/presentation/widgets/manual_expense_form.dart';
-import 'package:vehicle_tracker/features/ai_assistant/domain/ai_parsed_expense.dart';
-import 'package:vehicle_tracker/features/ai_assistant/presentation/gemini_provider.dart';
-import 'package:vehicle_tracker/features/ai_assistant/presentation/ai_expense_confirmation_card.dart';
-import 'package:vehicle_tracker/features/voice_input/presentation/widgets/voice_expense_widget.dart';
-import 'package:vehicle_tracker/features/vehicles/presentation/vehicles_provider.dart';
+import 'package:c_vencio/core/constants/app_constants.dart';
+import 'package:c_vencio/core/theme/app_theme.dart';
+import 'package:c_vencio/core/theme/design_tokens.dart';
+import 'package:c_vencio/features/expenses/domain/expense.dart';
+import 'package:c_vencio/features/expenses/presentation/expenses_provider.dart';
+import 'package:c_vencio/features/expenses/presentation/widgets/manual_expense_form.dart';
+import 'package:c_vencio/features/ai_assistant/domain/ai_parsed_expense.dart';
+import 'package:c_vencio/features/ai_assistant/presentation/gemini_provider.dart';
+import 'package:c_vencio/features/ai_assistant/presentation/ai_expense_confirmation_card.dart';
+import 'package:c_vencio/features/voice_input/presentation/widgets/voice_expense_widget.dart';
+import 'package:c_vencio/features/vehicles/presentation/vehicles_provider.dart';
 
 /// Screen rediseñado para agregar gastos con soporte de voz + AI
 class AddExpenseScreenV2 extends ConsumerStatefulWidget {

@@ -1,8 +1,8 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:vehicle_tracker/core/theme/app_theme.dart';
-import 'package:vehicle_tracker/core/theme/design_tokens.dart';
-import 'package:vehicle_tracker/features/vehicles/domain/vehicle.dart';
+import 'package:c_vencio/core/theme/app_theme.dart';
+import 'package:c_vencio/core/theme/design_tokens.dart';
+import 'package:c_vencio/features/vehicles/domain/vehicle.dart';
 
 /// Drawer con efecto glassmorphism para la navegación de vehículos
 class GlassDrawer extends StatelessWidget {

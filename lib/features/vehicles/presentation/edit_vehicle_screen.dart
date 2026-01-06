@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:vehicle_tracker/features/vehicles/domain/vehicle.dart';
-import 'package:vehicle_tracker/features/vehicles/presentation/vehicles_provider.dart';
-import 'package:vehicle_tracker/core/theme/app_theme.dart';
+import 'package:c_vencio/features/vehicles/domain/vehicle.dart';
+import 'package:c_vencio/features/vehicles/presentation/vehicles_provider.dart';
+import 'package:c_vencio/core/theme/app_theme.dart';
 
 class EditVehicleScreen extends ConsumerStatefulWidget {
   final Vehicle vehicle;

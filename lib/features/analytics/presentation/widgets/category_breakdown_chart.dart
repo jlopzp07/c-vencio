@@ -1,9 +1,9 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
-import 'package:vehicle_tracker/core/theme/app_theme.dart';
-import 'package:vehicle_tracker/core/theme/design_tokens.dart';
-import 'package:vehicle_tracker/features/analytics/domain/expense_analytics.dart';
-import 'package:vehicle_tracker/features/shared/widgets/glass_card.dart';
+import 'package:c_vencio/core/theme/app_theme.dart';
+import 'package:c_vencio/core/theme/design_tokens.dart';
+import 'package:c_vencio/features/analytics/domain/expense_analytics.dart';
+import 'package:c_vencio/features/shared/widgets/glass_card.dart';
 import 'package:intl/intl.dart';
 
 /// Gráfica de pastel (pie chart) para desglose de gastos por categoría

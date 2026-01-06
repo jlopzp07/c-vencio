@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:avatar_glow/avatar_glow.dart';
-import 'package:vehicle_tracker/core/theme/app_theme.dart';
-import 'package:vehicle_tracker/core/theme/design_tokens.dart';
-import 'package:vehicle_tracker/features/voice_input/data/speech_service.dart';
+import 'package:c_vencio/core/theme/app_theme.dart';
+import 'package:c_vencio/core/theme/design_tokens.dart';
+import 'package:c_vencio/features/voice_input/data/speech_service.dart';
 
 /// Botón animado para activar/desactivar entrada de voz
 /// Incluye efecto de glow y animaciones
